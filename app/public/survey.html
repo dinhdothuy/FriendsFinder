@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Survey Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+  <!-- Run this script to load bootstrap alert a modal window. -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+
+    <h1 class="text-center">Survey Questions</h1>
+    <hr>
+
+    <h2><strong>About You</strong></h2>
+    <h4>Name (Required)</h4>
+    <input type="text" id="name" class="form-control" required="">
+
+    <h4>Link to Photo Image (Required)</h4>
+    <input type="text" id="photo" class="form-control" required="">
+
+    <hr>
+
+    <!-- Create questions list -->
+
+    <h3><strong>Question 1</strong></h3>
+    <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+    <select class="chosen-select" id="q1">
+      <option value="0" selected>Select an option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 2</strong></h3>
+    <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+    <select class="chosen-select" id="q2">
+      <option value="0" selected>Select an option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 3</strong></h3>
+    <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+    <select class="chosen-select" id="q3">
+      <option value="0" selected>Select an option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 4</strong></h3>
+    <h4>You rarely do something just out of sheer curiosity.</h4>
+    <select class="chosen-select" id="q4">
+      <option value="0" selected>Select an option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 5</strong></h3>
+    <h4>People can rarely upset you.</h4>
+    <select class="chosen-select" id="q5">
+      <option value="0" selected>Select an option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 6</strong></h3>
+    <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+    <select class="chosen-select" id="q6">
+      <option value="0" selected>Select an option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 7</strong></h3>
+    <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+    <select class="chosen-select" id="q7">
+      <option value="0" selected>Select an option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 8</strong></h3>
+    <h4>You rarely get carried away by fantasies and ideas.</h4>
+    <select class="chosen-select" id="q8">
+      <option value="0" selected>Select an option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 9</strong></h3>
+    <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+    <select class="chosen-select" id="q9">
+      <option value="0" selected>Select an option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 10</strong></h3>
+    <h4>You feel more energetic after spending time with a group of people.</h4>
+    <select class="chosen-select" id="q10">
+      <option value="0" selected>Select an option</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <br>
+    <br>
+
+    <!-- Create submit button -->
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-square-o" aria-hidden="true"></i>
+     Submit</button>
+
+    <hr>
+    <footer class="footer">
+      <div class="container text-center">
+        <p><a href="/api/friends">API Friends List</a> | <a href="#">GitHub Repo</a></p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- When user clicks submit, app will display the result as a modal pop-up -->
+
+  <div id="matchModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h2 class="modal-title"><strong>Best Match</strong></h2>
+        </div>
+        <!-- The modal should display both the name and picture of the closest match. -->
+        <div class="modal-body">
+          <h2 id="matchName"></h2>
+          <img id="matchImg" src="" alt="" style="width: 400px">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Script to call result shows on modal window.  -->
+
+  <script>
+    $(document).ready(function(){
+      $("#submit").click(function(){
+        event.preventDefault();
+
+        // pop-up modal window:
+        // $("#matchModal").modal();
+        // $("#matchModal").modal('toggle');
+
+        // check value of each selected option from questions board:
+        $(".chosen-select").each(function(index,value){
+          console.log($(this).val())
+        });
+
+        if( ($('#name').val().trim() !== "") && ($('#photo').val().trim() !== "") ) {
+          // Create an object for the user's data
+          var userData = {
+              name: $("#name").val(),
+              photo: $("#photo").val(),
+              scores: [
+                $("#q1").val(),
+                $("#q2").val(),
+                $("#q3").val(),
+                $("#q4").val(),
+                $("#q5").val(),
+                $("#q6").val(),
+                $("#q7").val(),
+                $("#q8").val(),
+                $("#q9").val(),
+                $("#q10").val()
+              ]
+          }
+
+          // AJAX post the data to the friends API.
+          $.post("/api/friends", userData, function(data){
+            // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+            $("#matchName").text(data.name);
+            $('#matchImg').attr("src", data.photo);
+            // Show the modal with the best match
+            $("#matchModal").modal('toggle');
+            // clear the input fields in the form
+            $("#name").val("");
+            $("#photo").val("");
+          });
+        } else {
+            // alert("Please fill out all fields before submitting!");
+            $(".modal-title").text("Missing required information");
+            $(".modal-body").html("<h3>Please fill out all fields before submitting!</h3>");
+            $("#matchModal").modal('toggle');
+        }
+        return false;
+
+      });
+    });
+  </script>
+
+  <script type="text/javscript" src="../routing/apiRoutes.jss"></script>
+  <script type="text/javscript" src="../routing/htmlRoutes.jss"></script>
+
+</body>
+
+</html>
